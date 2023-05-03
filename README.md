@@ -2,7 +2,7 @@
 This repository is a compilation of all the web3 security alpha tips. (in random order)
 
 
-1)DeFi alpha tips by jc courses 
+1)DeFi alpha tips by jp courses 
 https://twitter.com/JP_Courses/status/1650523289918353409?s=20
 
 2)lending and borrowning (audit) alpha tip 
@@ -14,5 +14,11 @@ Always check for these when you are auditing a Lending/Borrowing protocol:
 4. Borrower Permanently Unable To Repay Loan
 
 
-3)DeFi alpha tips for understanding flash loans vs flash swaps
+3)DeFi alpha tips for understanding flash loans vs flash swaps by jp courses
 https://twitter.com/JP_Courses/status/1651033149705420803?s=20
+
+4) Defi alpha tips for understanding impermanent loss vs slippage by jp courses
+https://twitter.com/JP_Courses/status/1651013060167884800?s=20
+
+5)
+
