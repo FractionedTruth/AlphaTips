@@ -57,3 +57,12 @@ Mastering the bug density heatmap is the single most profitable thing you can do
 If you study from the same sources and read the same reports as everyone, you'll likely end up with the same findings.
 In bounty hunting and competitive auditing, you're mainly looking for RARE bugs. The ones that remained after the last 10 hunters were done with their prey. So to find them, you'll travel the road not taken. Dig into the less-readable stuff.
  Go beyond known theory and experiment in a sandbox. Pick a random 0-star GH project and tear it apart. Congrats, now there's something that makes you better than the rest of the pack.
+
+
+Few mandatory checks you need to do, when auditing a Smart contract: ✅
+👇
+
+1. Verify that the sensitive operations of contract do not depend on the block data (i.e. block hash, timestamp).
+2. Verify that the self-destruct functionality is used only if necessary.
+3. Verify that the result of low-level function calls (e.g. send, delegatecall, call) from another contracts is checked.
+4. Verify that the contract relies on the data provided by right sender and contract does not rely on tx.origin value.
